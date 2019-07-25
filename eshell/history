@@ -1,0 +1,128 @@
+cd Microsoft\ User\ Data/
+ls
+cd ..
+ls
+cd Private_Yufeng\ Lin/
+ls
+cd ..
+ls
+cd Research/
+ls
+cd ..
+ls
+cd Work
+ls
+cd ..
+ls
+cd Work
+ls
+mv COIT20227_T2_2015_Assignment_2_Specification_and_Marking_Criteria.pdf CQU/
+cd CQU/
+ls
+mv COIT20227_T2_2015_Assignment_2_Specification_and_Marking_Criteria.pdf 2015\ T2/
+cd 2015\ T2/
+ls
+mkdir COIT12207
+ls
+mv *.pdf COIT2207/
+cd COIT2207/ & ls
+mv *.pdf Assignment_1/
+ls
+cd Assignment
+ls
+cd Assignment_1/
+ls
+ls
+cd
+exit
+ls
+exit
+ls
+javac WelcomeToJava.java 
+exit
+ls
+javac WelcomeToJava.java 
+exit
+javac WelcomeToJava.java 
+ls
+java WelcomeToJava.class
+exit
+javac WelcomeToJava.java
+java WelcomeToJava
+exit
+java WelcomeToJava.java
+java WelcomeToJava
+exit
+ls
+cd JavaPractice/
+ls
+java WelcomeToJava
+javac WelcomeToJava.java
+java WelcomeToJava
+ls
+javac FirstJava.java 
+exit
+javac FirstJava.java 
+ls
+java FirstJava
+FirstJAVA
+FirstJava
+FirstJava.java
+java FirstJava
+exit
+ls
+javac HelloJavaWorld.java 
+ls
+java HelloJavaWorld
+exit
+ls
+exit
+ls
+javac HelloJavaWorld.java
+javac HelloJavaWorld.java
+javac HelloJavaWorld.java
+java HelloJavaWorld
+javac HelloJavaWorld.java
+java HelloJavaWorld
+ls
+javac Week2_4.java
+exit
+ls
+javac Week2_4.java
+java Week2_4
+exit
+javac HelloJavaWrold.java 
+javac Week2_4.java
+java Week2_4
+exit
+java Week2_4
+exit
+javac Week2_4.java
+java Week2_4
+java Week2_4
+eixt
+exit
+javac Week2_4.java
+java Week2_4
+exit
+javac Week2_4.java
+java Week2_4
+exit
+ls
+javac Week2_2.java
+exit
+javac Week2_2.java
+exit
+ls
+javac Week2_2.java
+java Week2_4
+java Week2_2
+exit
+javac Week2_2.java
+java Week2_2
+java Week2_2
+eixt
+exit
+ls
+cd elpa
+ls
