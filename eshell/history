@@ -1,18 +1,3 @@
-cd Microsoft\ User\ Data/
-ls
-cd ..
-ls
-cd Private_Yufeng\ Lin/
-ls
-cd ..
-ls
-cd Research/
-ls
-cd ..
-ls
-cd Work
-ls
-cd ..
 ls
 cd Work
 ls
@@ -126,3 +111,18 @@ exit
 ls
 cd elpa
 ls
+ls
+mkdir lisp
+ls
+cd lisp/
+touch init-packages.el  
+touch init-better-defaults.el
+touch init-keybindings.el
+touch init-packages-configuration.el
+touch init-ui.el
+touch init-org.el
+ls
+touch init-customisation.el
+mv init-ui.el init-UI.el
+less init-UI.el
+vim init-UI.el
