@@ -32,11 +32,16 @@
 (set-face-attribute 'default nil :height 160)
 
 ;; quick open the configration file
+
+(defun open-planning-file()
+  (interactive)
+  (find-file "~/.emacs.d/settingPlanning.org"))
+(global-set-key (kbd "s-1") 'open-planning-file) ;; see key bindings
+
 (defun open-init-file()
   (interactive)
   (find-file "~/.emacs.d/EthanLinyfEmacs.org"))
-(global-set-key (kbd "s-1") 'open-init-file) ;; see key bindings
-
+(global-set-key (kbd "s-2") 'open-init-file) ;; see key bindings
 
 ;; turn off automatical backup
 (setq make-backup-files nil)
