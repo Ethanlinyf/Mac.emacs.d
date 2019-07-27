@@ -4,18 +4,10 @@
 ;; You may delete these explanatory comments.
 ;;(package-initialize)
 
-(add-to-list 'load-path "~/.emacs.d/lisp/")
+(require 'org-install)
+(require 'ob-tangle)
+(org-babel-load-file (expand-file-name "EthanLinyfEmacs.org" user-emacs-directory))
 
-;; -------------------------------------------------------------------------
-(require 'init-packages)
-(require 'init-package-configuration)
-(require 'init-better-defaults)
-(require 'init-UI)
-(require 'init-org)
-(require 'init-keybindings)
-(require 'init-javascript)
-;;(require 'init-abbrew)
-;; -------------------------------------------------------------------------
 
-(setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
-(load-file custom-file)
+
+

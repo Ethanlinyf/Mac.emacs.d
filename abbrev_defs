@@ -5,6 +5,10 @@
 
 (define-abbrev-table 'bibtex-mode-abbrev-table '())
 
+(define-abbrev-table 'bookmark-bmenu-mode-abbrev-table '())
+
+(define-abbrev-table 'bookmark-edit-annotation-mode-abbrev-table '())
+
 (define-abbrev-table 'calendar-mode-abbrev-table '())
 
 (define-abbrev-table 'comint-mode-abbrev-table '())
@@ -19,13 +23,22 @@
 
 (define-abbrev-table 'emacs-lisp-mode-abbrev-table '())
 
+(define-abbrev-table 'epa-info-mode-abbrev-table '())
+
+(define-abbrev-table 'epa-key-list-mode-abbrev-table '())
+
+(define-abbrev-table 'epa-key-mode-abbrev-table '())
+
 (define-abbrev-table 'fundamental-mode-abbrev-table '())
 
 (define-abbrev-table 'global-abbrev-table
   '(
-    ("3email" "yourslinyf@gmail.com" nil 2)
-    ("3yf" "Yufeng Lin" nil 1)
+    ("3address" "5 Kamaran Court, Annandale, Townsville QLD, 4814" nil 1)
+    ("3email" "yourslinyf@gmail.com" nil 1)
+    ("3yf" "Yufeng Lin" nil 0)
    ))
+
+(define-abbrev-table 'gnus-group-mode-abbrev-table '())
 
 (define-abbrev-table 'help-mode-abbrev-table '())
 
@@ -35,11 +48,15 @@
 
 (define-abbrev-table 'lisp-mode-abbrev-table '())
 
+(define-abbrev-table 'message-mode-abbrev-table '())
+
 (define-abbrev-table 'messages-buffer-mode-abbrev-table '())
 
 (define-abbrev-table 'occur-edit-mode-abbrev-table '())
 
 (define-abbrev-table 'occur-mode-abbrev-table '())
+
+(define-abbrev-table 'org-export-stack-mode-abbrev-table '())
 
 (define-abbrev-table 'org-mode-abbrev-table '())
 

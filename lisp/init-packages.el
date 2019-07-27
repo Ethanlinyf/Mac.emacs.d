@@ -28,6 +28,7 @@
 				smex
 				solarized-theme
 				popwin
+				reveal-in-osx-finder
 				) "Default packages")
 
  (setq package-selected-packages EthanLinyf/packages)
