@@ -103,6 +103,6 @@
 (require 'dired-x)
 (setq dired-dwin-target 1)
 
-
+(require 'org-pomodoro)
 
 (provide 'init-better-defaults)

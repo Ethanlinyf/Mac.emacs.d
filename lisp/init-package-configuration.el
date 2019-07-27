@@ -35,5 +35,10 @@
 (global-set-key (kbd "C-h f") 'counsel-describe-function)
 (global-set-key (kbd "C-h v") 'counsel-describe-variable)
 
+;; Org-pomodoro
+(setq org-pomodoro-length 25)
+(setq org-pomodoro-short-break-length 5)
+(setq org-pomodoro-long-break-length 15)
+(setq org-pomodoro-play-sounds 1)
 
 (provide 'init-package-configuration)
