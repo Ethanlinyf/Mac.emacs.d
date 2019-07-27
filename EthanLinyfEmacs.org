@@ -34,3 +34,8 @@
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 (load-file custom-file)
 #+END_SRC
+** AutoLoad
+#+BEGIN_SRC emacs-lisp
+
+#+END_SRC
+

@@ -1,9 +1,4 @@
 ls
-cd Work
-ls
-mv COIT20227_T2_2015_Assignment_2_Specification_and_Marking_Criteria.pdf CQU/
-cd CQU/
-ls
 mv COIT20227_T2_2015_Assignment_2_Specification_and_Marking_Criteria.pdf 2015\ T2/
 cd 2015\ T2/
 ls
@@ -126,3 +121,8 @@ touch init-customisation.el
 mv init-ui.el init-UI.el
 less init-UI.el
 vim init-UI.el
+ls
+clear
+git add .
+git commit -m "add org-pomodoro"
+exit
