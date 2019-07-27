@@ -13,5 +13,13 @@
 #+CREATOR: Emacs 26.1 (Org mode 9.1.9)
 
 * [#A] spell checking
+  - Xah Emacs: [[http://ergoemacs.org/emacs/emacs_spell_check.html][Spell Checking]]
+#+BEGIN_SRC shell
+brew install ispell
+#+END_SRC
+
+
+
 * TODO LaTex Support
 * TODO Email
+* TODO this is a todo test. 

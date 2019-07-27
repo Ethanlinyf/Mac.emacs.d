@@ -12,4 +12,4 @@
 
 
 
-(provide 'init-UI)
+(provide 'init-ui)
