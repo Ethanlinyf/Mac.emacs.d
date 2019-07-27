@@ -32,6 +32,7 @@
 			      popwin
 			      reveal-in-osx-finder
 			      org-pomodoro
+			      sound-wav ;;poweshell
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)

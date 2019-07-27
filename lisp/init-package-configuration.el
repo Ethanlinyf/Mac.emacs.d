@@ -40,5 +40,10 @@
 (setq org-pomodoro-short-break-length 5)
 (setq org-pomodoro-long-break-length 15)
 (setq org-pomodoro-play-sounds 1)
+;;(require 'sound-wav)
+;;(sound-wav-play "/path/to/audio.wav")
+
+
+
 
 (provide 'init-package-configuration)
