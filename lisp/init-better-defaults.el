@@ -35,7 +35,7 @@
 
 (defun open-planning-file()
   (interactive)
-  (find-file "~/.emacs.d/settingPlanning.org"))
+  (find-file "~/.emacs.d/Mac.emacs.d_GTD.org"))
 (global-set-key (kbd "s-1") 'open-planning-file) ;; see key bindings
 
 (defun open-init-file()
