@@ -18,7 +18,7 @@
 brew install ispell
 #+END_SRC
 
-
+* Git ignore:[[https://git-scm.com/docs/gitignore][gitignore]]
 * TODO LaTex Support
 * TODO Email
 
