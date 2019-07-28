@@ -1,13 +1,4 @@
 ls
-mv COIT20227_T2_2015_Assignment_2_Specification_and_Marking_Criteria.pdf 2015\ T2/
-cd 2015\ T2/
-ls
-mkdir COIT12207
-ls
-mv *.pdf COIT2207/
-cd COIT2207/ & ls
-mv *.pdf Assignment_1/
-ls
 cd Assignment
 ls
 cd Assignment_1/
@@ -126,3 +117,12 @@ clear
 git add .
 git commit -m "add org-pomodoro"
 exit
+ls
+cd .emacs.d/
+ls
+mv ../site-lisp/ .
+ls
+cd site-lisp/
+ls
+cd ..
+ls

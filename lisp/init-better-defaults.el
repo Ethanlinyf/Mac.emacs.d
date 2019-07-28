@@ -40,7 +40,7 @@
 
 (defun open-init-file()
   (interactive)
-  (find-file "~/.emacs.d/EthanLinyfEmacs.org"))
+  (find-file "~/.emacs.d/init-org.org"))
 (global-set-key (kbd "s-2") 'open-init-file) ;; see key bindings
 
 ;; turn off automatical backup
