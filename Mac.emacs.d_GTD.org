@@ -19,6 +19,9 @@ brew install ispell
 #+END_SRC
 
 * Git ignore:[[https://git-scm.com/docs/gitignore][gitignore]]
+
+* TODO init-org.el to org-init.el
+  DEADLINE: <2019-07-29 Mon 16:00> SCHEDULED: <2019-07-29 Mon 11:00>
 * TODO LaTex Support
 * TODO Email
 
