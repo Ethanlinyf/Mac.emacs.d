@@ -37,4 +37,5 @@
 #+BEGIN_SRC emacs-lisp
 
 #+END_SRC
-
+** exclude file
+   - recentf
