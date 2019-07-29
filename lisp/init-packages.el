@@ -33,6 +33,11 @@
 			      reveal-in-osx-finder
 			      org-pomodoro
 			      sound-wav ;;poweshell
+			      magit
+			      auctex
+			      dash
+			      yasnippet
+			      auto-complete
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)

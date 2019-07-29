@@ -27,6 +27,7 @@
 (require 'init-keybindings)
 (require 'init-javascript)
 (require 'init-abbrew)
+(require 'init-latex)
 #+END_SRC
 ** Load Custom settings
 #+BEGIN_SRC emacs-lisp
