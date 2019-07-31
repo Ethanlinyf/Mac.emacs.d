@@ -48,7 +48,7 @@
 
 		  (setq TeX-show-compilation nil)   ;;NOT display compilation windows
 		  (setq TeX-global-PDF-mode t       ;;PDF mode enable, not plain
-		  		TeX-engine 'latex)  ;;use xelatex default
+		  		TeX-engine 'default)  ;;use xelatex default
 		  (setq TeX-clean-confirm nil)
 		  (setq TeX-save-query nil)
 		 

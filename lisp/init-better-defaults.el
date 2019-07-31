@@ -4,6 +4,8 @@
 
 ;;(set-language-environment "UTF-8")
 
+(setq-default fill-column 80)
+
 ;; automatically update the files when they are changed outside
 (global-auto-revert-mode 1)
 

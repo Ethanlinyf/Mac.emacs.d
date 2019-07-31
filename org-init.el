@@ -7,7 +7,7 @@
 (require 'init-org)
 (require 'init-keybindings)
 (require 'init-javascript)
-(require 'init-abbrew)
+(require 'init-abbrev)
 (require 'init-latex)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))

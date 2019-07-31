@@ -12,17 +12,24 @@
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 26.1 (Org mode 9.1.9)
 
-* [#A] spell checking
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+#+STARTUP: content
+
+* DONE [#A] spell checking
   - Xah Emacs: [[http://ergoemacs.org/emacs/emacs_spell_check.html][Spell Checking]]
 #+BEGIN_SRC shell
 brew install ispell
 #+END_SRC
 
-* TODO Git ignore:[[https://git-scm.com/docs/gitignore][gitignore]]
+* DONE Git ignore:[[https://git-scm.com/docs/gitignore][gitignore]]
   SCHEDULED: <2019-07-29 Mon 12:00-12:10>
 * DONE init-org.el to org-init.el
   DEADLINE: <2019-07-29 Mon 16:00> SCHEDULED: <2019-07-29 Mon 11:00>
-* TODO LaTex Support
+* DONE LaTex Support
+* DONE Remove a file recentf from .emacs.d
+* TODO [#B] use magit 
+  - Introduction: [[http://jixiuf.github.io/blog/000100-emacs-magit.html/][magit]]
 * TODO Email
-* Remove a file recentf from .emacs.d
-
+  DEADLINE: <2019-08-02 Fri> SCHEDULED: <2019-07-30 Tue>
+* TODO Beamer Support
+* TODO Better Org Support
