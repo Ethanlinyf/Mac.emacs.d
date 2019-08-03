@@ -29,7 +29,16 @@ brew install ispell
 * DONE Remove a file recentf from .emacs.d
 * TODO [#B] use magit 
   - Introduction: [[http://jixiuf.github.io/blog/000100-emacs-magit.html/][magit]]
+    Magit is an interface to the version control system Git, implemented as an Emacs package. While we cannot (yet) claim that Magit wraps and improves upon each and every Git command, it is convinient to allow experienced Git users to perform almost all of their daily version control tasks directly from within Emacs. While many fine Git clients exist, only Magit and Git itself deserve to be called porcelains.
 * TODO Email
   DEADLINE: <2019-08-02 Fri> SCHEDULED: <2019-07-30 Tue>
 * TODO Beamer Support
 * TODO Better Org Support
+* TODO [[http://www.codeblocq.com/2016/01/Untrack-files-already-added-to-git-repository-based-on-gitignore/][update]] .gitignore
+* TODO [[https://github.com/org2blog/org2blog][Org2blog]]
+* TODO update the link in MySpacemacs
+- The files: 
+  + plain org files
+  + 
+* TODO Insert a property
+* TODO How to insert a photo, just took
