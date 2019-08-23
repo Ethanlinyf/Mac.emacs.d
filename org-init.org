@@ -6,7 +6,7 @@
 #+TITLE: init-org
 #+DATE: <2019-07-27 Sat>
 #+AUTHOR: Ethan Lin
-#+EMAIL: ethanlin@Ethans-MBP
+#+EMAIL: e.yflin@gmail.com
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
@@ -28,8 +28,10 @@
 (require 'init-org)
 (require 'init-keybindings)
 (require 'init-javascript)
-(require 'init-abbrew)
+(require 'init-abbrev)
 (require 'init-latex)
+(require 'init-mapping)
+(require 'init-org2blog)
 #+END_SRC
 ** Load Custom settings
 #+BEGIN_SRC emacs-lisp
@@ -42,3 +44,4 @@
 #+END_SRC
 ** exclude file
    - recentf
+   - abbrev, a model (init-abbrev) can be found from wiki page

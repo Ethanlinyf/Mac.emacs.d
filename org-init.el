@@ -9,6 +9,8 @@
 (require 'init-javascript)
 (require 'init-abbrev)
 (require 'init-latex)
+(require 'init-mapping)
+(require 'init-org2blog)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 (load-file custom-file)

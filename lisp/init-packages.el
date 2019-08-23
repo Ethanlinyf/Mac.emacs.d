@@ -13,31 +13,32 @@
 
 ;; add whaterver packages you want here
 (defvar EthanLinyf/packages '(
-			      ;; --- Auto-completion ---
-		              company
-			      ;; --- Better Editor ---
+			      company
 			      hungry-delete
 			      swiper
 			      counsel
 			      smartparens
-			      ;; --- Major Mode ---
 			      js2-mode
-			      ;; --- Minor Mode ---
 			      nodejs-repl
 			      exec-path-from-shell
-			      ;; --- Themes ---
 			      monokai-theme
 			      smex
 			      solarized-theme
 			      popwin
 			      reveal-in-osx-finder
 			      org-pomodoro
-			      sound-wav ;;poweshell
+			      sound-wav
 			      magit
 			      auctex
 			      dash
 			      yasnippet
 			      auto-complete
+			      htmlize
+			      hydra
+			      metaweblog
+			      xml-rpc
+			      org2blog
+			      grip-mode ;;preview 
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)

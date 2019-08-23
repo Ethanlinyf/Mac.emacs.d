@@ -1,5 +1,8 @@
 
 
+(setq org-directory "/users/ethanlin/MySpacemacs/")
+
+(setq org-list-allow-alphabetical t)
 
 ;; highlighting on the syntex of different programming language
 (require 'org)

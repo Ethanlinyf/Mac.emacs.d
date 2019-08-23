@@ -3,12 +3,13 @@
 ;; ---------------------------------------------------------------------
 
 ;;(set-language-environment "UTF-8")
-
 (setq-default fill-column 80)
 
 ;; automatically update the files when they are changed outside
 (global-auto-revert-mode 1)
 
+;; set wisual line mode
+(global-visual-line-mode 1) ; 1 for on, 0 for off.
 
 ;; turn off tool-bar-mode
 (tool-bar-mode -1)
