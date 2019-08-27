@@ -113,4 +113,11 @@
 
 (require 'org-pomodoro)
 
+;; multi-term: a mode based on term.el, for managing multiple terminal buffers in Emacs
+(require 'multi-term)
+(setq multi-term-program "/bin/bash")
+
+
+
+
 (provide 'init-better-defaults)

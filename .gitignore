@@ -4,6 +4,9 @@
 /test/**
 /auto-save-list
 /lisp/init-abbrev.el
-/Mac.emacs.d_GTD.org
+/Mac.emacs.d_GTD.*
 /abbrev_defs
 /lisp/init-mapping.el
+/.org-id-locations
+/ac-comphist.dat
+/.org-id-locations

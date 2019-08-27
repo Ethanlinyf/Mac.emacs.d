@@ -32,6 +32,7 @@
 (require 'init-latex)
 (require 'init-mapping)
 (require 'init-org2blog)
+(require 'init-easypg)
 #+END_SRC
 ** Load Custom settings
 #+BEGIN_SRC emacs-lisp

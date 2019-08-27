@@ -38,7 +38,9 @@
 			      metaweblog
 			      xml-rpc
 			      org2blog
-			      grip-mode ;;preview 
+			      grip-mode ;;preview
+			      multi-term ;; for creating and managing multiple terminal buffers in Emacs
+			      slime ;; Superior Lisp Interaction Mode for Emacs, learning Emacs lisp.
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)
