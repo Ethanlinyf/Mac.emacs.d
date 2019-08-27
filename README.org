@@ -1,1 +1,1 @@
-# Mac.emacs.d
+* Mac.emacs.d
