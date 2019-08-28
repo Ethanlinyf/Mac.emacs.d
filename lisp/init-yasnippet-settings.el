@@ -22,24 +22,8 @@
 ;;; Code:
 
 
-(setq org-directory "/users/ethanlin/MySpacemacs/")
 
-(setq org-list-allow-alphabetical t)
+(require 'yasnippet)
+(yas-global-mode 1)
 
-;; highlighting on the syntex of different programming language
-(require 'org)
-(setq org-src-fontify-natively t)
-
-(setq org-agenda-files '("~/org"))
-(global-set-key (kbd "C-c a") 'org-agenda)
-
-
-(require 'org-crypt)
-(org-crypt-use-before-save-magic)
-(setq org-tags-exclude-from-inheritance (quote ("crypt")))
-;; GPG key to use for encryption
-;; Either the Key ID or set to nil to use symmetric encryption.
-(setq org-crypt-key nil)
-
-
-(provide 'init-org)
+(provide 'init-yasnippet-settings)
