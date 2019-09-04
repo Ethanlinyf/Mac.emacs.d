@@ -36,6 +36,7 @@
 
 (require 'org-crypt)
 (org-crypt-use-before-save-magic)
+(setq org-crypt-tag-matcher "crypt")
 (setq org-tags-exclude-from-inheritance (quote ("crypt")))
 ;; GPG key to use for encryption
 ;; Either the Key ID or set to nil to use symmetric encryption.

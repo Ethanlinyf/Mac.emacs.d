@@ -24,7 +24,9 @@
 
 (require 'epa-file)
 (epa-file-enable)
-(setq epa-file-select-keys nil) 
+(setenv "GPG_AGENT_INFO" nil)
+(setq epa-file-select-keys nil)
+(setq epa-pinentry-mode 'loopback)
 
 
 (provide 'init-easypg)

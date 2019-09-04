@@ -33,6 +33,7 @@
 (require 'init-mapping)
 (require 'init-org2blog)
 (require 'init-easypg)
+;;(require 'grid-mode)
 #+END_SRC
 ** Load Custom settings
 #+BEGIN_SRC emacs-lisp

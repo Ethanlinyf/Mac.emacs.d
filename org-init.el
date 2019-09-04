@@ -12,6 +12,7 @@
 (require 'init-mapping)
 (require 'init-org2blog)
 (require 'init-easypg)
+;;(require 'grid-mode)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 (load-file custom-file)

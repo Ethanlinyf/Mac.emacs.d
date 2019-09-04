@@ -64,7 +64,26 @@
 ;;(require 'sound-wav)
 ;;(sound-wav-play "/path/to/audio.wav")
 
+;; grip-mode
+;; Make a keybinding: `C-c C-c g'
+;q(define-key markdown-mode-command-map (kbd "g") #'grip-mode)
 
+;; Or start grip when opening a markdown/org buffer
+;;(add-hook 'markdown-mode-hook #'grip-mode)
+;;(add-hook 'org-mode-hook #'grip-mode)
+;; Use keybindings
+;(use-package grip-mode
+;  :ensure t
+;  :bind (:map markdown-mode-command-map
+;         ("g" . grip-mode)))
 
+;; Or using hooks
+;;(use-package grip-mode
+;;  :ensure t
+;;  :hook ((markdown-mode org-mode) . grip-mode))
+
+;; Flyspell
+(add-hook 'text-mode-hook #'flyspell-mode)
+(add-hook 'prog-mode-hook #'flyspell-prog-mode)
 
 (provide 'init-package-configuration)
