@@ -33,6 +33,8 @@
  '(package-selected-packages
    (quote
     (let-alist latex-extra latex-math-preview latex-unicode-math-mode cdlatex company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme smex solarized-theme popwin reveal-in-osx-finder org-pomodoro sound-wav magit auctex)))
+ '(popwin:popup-window-position (quote right))
+ '(popwin:popup-window-width 80)
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

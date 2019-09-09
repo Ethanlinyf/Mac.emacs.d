@@ -64,7 +64,11 @@
 			      grip-mode ;;preview
 			      multi-term ;; for creating and managing multiple terminal buffers in Emacs
 			      slime ;; Superior Lisp Interaction Mode for Emacs, learning Emacs lisp.
-			      grip-mode ;; Instant Github-flavored Markdown/Org preview using grip 
+			      grip-mode ;; Instant Github-flavored Markdown/Org preview using grip
+			      web-mode
+			      js2-refactor
+			      expand-region
+			      iedit
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)
