@@ -30,7 +30,7 @@
 (require 'org)
 (setq org-src-fontify-natively t)
 
-(setq org-agenda-files '("~/org"))
+(setq org-agenda-files '("/Users/ethanlin/MySpacemacs/EthanYufengLinOrg/Private/"))
 (global-set-key (kbd "C-c a") 'org-agenda)
 
 
@@ -41,6 +41,13 @@
 ;; GPG key to use for encryption
 ;; Either the Key ID or set to nil to use symmetric encryption.
 (setq org-crypt-key nil)
+
+(setq org-capture-templates
+      '(("t" "Todo" entry (file+headline "/Users/ethanlin/MySpacemacs/EthanYufengLinOrg/Private/gtd.org" "Tips")
+	 "* TODO [#B] %?\n  %i\n"
+	 :empty-lines 1)))
+
+(global-set-key (kbd "C-c r") 'org-capture)
 
 
 (provide 'init-org)
