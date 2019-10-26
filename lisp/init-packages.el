@@ -69,6 +69,7 @@
 			      js2-refactor
 			      expand-region
 			      iedit
+			      evil
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)
