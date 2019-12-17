@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Single quote
+# key: sq
+# --
+\`$1'

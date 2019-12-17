@@ -56,4 +56,4 @@
 ; case sensitivity is important when finding matches
 (setq ac-ignore-case nil)
 
-(provide 'auto-complete-settings)
+(provide 'init-auto-complete-settings)

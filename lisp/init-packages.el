@@ -29,7 +29,9 @@
 (when (>= emacs-major-version 24)
   (require 'package)
   (package-initialize)
-  (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+;;  (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+  (add-to-list 'package-archives '("melpa-stable" . "http://elpa.emacs-china.org/melpa/") t)
+  (add-to-list 'package-archives '("melpa-gnu" . "http://elpa.emacs-china.org/gnu/") t)
   )
 
 (require 'cl)
@@ -70,6 +72,12 @@
 			      expand-region
 			      iedit
 			      evil
+			      evil-leader
+			      helm-ag
+			      flycheck
+			      auto-yasnippet
+			      window-numbering
+			      powerline
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)

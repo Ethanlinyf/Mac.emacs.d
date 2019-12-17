@@ -140,6 +140,16 @@
 ;; multi-term
 (setq multi-term-program "/bin/zsh")
 
+;; helm-ag
 
+(global-set-key (kbd "C-c p s") 'helm-do-ag-project-root)
+
+;; flycheck package
+(add-hook 'js2-mode-hook 'flycheck-mode)
+
+;;yasnippet
+(require 'yasnippet)
+(yas-reload-all)
+(add-hook 'prog-mode-hook #'yas-minor-mode)
 
 (provide 'init-package-configuration)

@@ -58,6 +58,7 @@
 		  (require 'init-auto-complete-settings)
                   (require 'init-yasnippet-settings)
 		  (TeX-fold-mode 1)
+		  (auto-fill-mode 1)
 
 		  ;;;;;;;;;;;;;;;; flyspell settings
 		  (flyspell-mode 1)
@@ -65,9 +66,9 @@
 		  (setq flyspell-doublon-as-error-flag nil)
 
 		  
-		  (turn-off-auto-fill)              ;;LaTeX mode，turn off auto fold
+		  (turn-on-auto-fill)              ;;LaTeX mode，turn off auto fold
 		  (linum-mode 1)
-		  (auto-complete-mode 1)
+		  ;;(auto-complete-mode 1)
 		  (latex-math-mode 1)
 		  (outline-minor-mode 1)            
   		  (imenu-add-menubar-index)

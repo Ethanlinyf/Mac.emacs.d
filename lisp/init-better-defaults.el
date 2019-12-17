@@ -165,5 +165,15 @@
   (call-interactively 'occur))
 (global-set-key (kbd "M-s o") 'occur-dwim)
 
+(set-language-environment "UTF-8")
+
+;;Modify company-active-map accordingly:
+(with-eval-after-load 'company
+  (define-key company-active-map (kbd "M-n") nil)
+  (define-key company-active-map (kbd "M-p") nil)
+  (define-key company-active-map (kbd "C-n") #'company-select-next)
+  (define-key company-active-map (kbd "C-p") #'company-select-previous))
+
+;; open finder; M-x reveal-in-osx-finder
 
 (provide 'init-better-defaults)
