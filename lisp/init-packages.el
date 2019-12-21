@@ -78,6 +78,10 @@
 			      auto-yasnippet
 			      window-numbering
 			      powerline
+			      evil-surround
+			      evil-nerd-commenter
+			      which-key
+			      mwe-log-commands
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)
@@ -93,5 +97,7 @@
   (dolist (pkg EthanLinyf/packages)
     (when (not (package-installed-p pkg))
       (package-install pkg))))
+
+
 
 (provide 'init-packages)

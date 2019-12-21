@@ -152,4 +152,61 @@
 (yas-reload-all)
 (add-hook 'prog-mode-hook #'yas-minor-mode)
 
+(window-numbering-mode 1)
+
+;; evil mode
+(evil-mode 1)
+;;(setq evil-want-C-u-scroll t)
+
+(setcdr evil-insert-state-map nil)
+(define-key evil-insert-state-map [escape] 'evil-normal-state)
+
+(global-evil-leader-mode)
+
+(evil-leader/set-key
+  "ff" 'find-file
+  "bb" 'switch-to-buffer
+  "0"  'select-window-0
+  "1"  'select-window-1
+  "2"  'select-window-2
+  "3"  'select-window-3
+  "w/" 'split-window-right
+  "w-" 'split-window-below
+  ":"  'counsel-M-x
+  "wM" 'delete-other-windows
+  )
+;; Evil-surround
+(require 'evil-surround)
+(global-evil-surround-mode)
+
+;;Evil-nerd-commenter
+
+(evilnc-default-hotkeys)
+
+(define-key evil-normal-state-map (kbd ",/") 'evilnc-comment-or-uncomment-lines)
+(define-key evil-visual-state-map (kbd ",/") 'evilnc-comment-or-uncomment-lines)
+
+;; made some modes to use emacs-state
+(dolist (mode '(ag-mode
+                flycheck-error-list-mode
+		occur-mode
+                 git-rebase-mode))
+   (add-to-list 'evil-emacs-state-modes mode))
+
+
+(add-hook 'occur-mode-hook
+          (lambda ()
+            (evil-add-hjkl-bindings occur-mode-map 'emacs
+              (kbd "/")       'evil-search-forward
+              (kbd "n")       'evil-search-next
+              (kbd "N")       'evil-search-previous
+              (kbd "C-d")     'evil-scroll-down
+              (kbd "C-u")     'evil-scroll-up
+              )))
+
+;; Which-key
+(which-key-mode 1)
+(which-key-setup-side-window-bottom)
+
+
 (provide 'init-package-configuration)

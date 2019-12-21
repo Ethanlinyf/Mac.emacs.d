@@ -27,12 +27,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(evil-leader/leader "SPC")
+ '(evil-want-C-u-scroll t)
  '(org-agenda-files
    (quote
     ("~/MySpacemacs/EthanYufengLinOrg/Project/ThingsEngine/ThingsEngine-Git/ThingsEngine_Git.org" "/Users/ethanlin/org/gtd.org")))
  '(package-selected-packages
    (quote
-    (let-alist latex-extra latex-math-preview latex-unicode-math-mode cdlatex company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme smex solarized-theme popwin reveal-in-osx-finder org-pomodoro sound-wav magit auctex)))
+    (2048-game which-key let-alist latex-extra latex-math-preview latex-unicode-math-mode cdlatex company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme smex solarized-theme popwin reveal-in-osx-finder org-pomodoro sound-wav magit auctex)))
  '(popwin:popup-window-position (quote right))
  '(popwin:popup-window-width 80)
  '(show-paren-mode t)
