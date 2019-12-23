@@ -26,15 +26,17 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 ;; (package-initialize)
+(require 'cl)
+
 (when (>= emacs-major-version 24)
+    (setq package-archives '(;;("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                           ("melpa" . "http://elpa.emacs-china.org/melpa/")))
   (require 'package)
   (package-initialize)
-;;  (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-  (add-to-list 'package-archives '("melpa-stable" . "http://elpa.emacs-china.org/melpa/") t)
-  (add-to-list 'package-archives '("melpa-gnu" . "http://elpa.emacs-china.org/gnu/") t)
+  ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+  ;;(add-to-list 'package-archives '("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/") t)
+  ;;(add-to-list 'package-archives '("melpa-gnu" . "http://elpa.emacs-china.org/gnu/") t)
   )
-
-(require 'cl)
 
 ;; add whaterver packages you want here
 (defvar EthanLinyf/packages '(
@@ -81,7 +83,8 @@
 			      evil-surround
 			      evil-nerd-commenter
 			      which-key
-			      mwe-log-commands
+			      pallet
+			      ;;mwe-log-commands
 			      ) "Default packages")
 
 (setq package-selected-packages EthanLinyf/packages)
@@ -97,7 +100,5 @@
   (dolist (pkg EthanLinyf/packages)
     (when (not (package-installed-p pkg))
       (package-install pkg))))
-
-
 
 (provide 'init-packages)
