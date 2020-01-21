@@ -208,5 +208,6 @@
 (which-key-mode 1)
 (which-key-setup-side-window-bottom)
 
-
+;; use-package
+(require 'use-package)
 (provide 'init-package-configuration)

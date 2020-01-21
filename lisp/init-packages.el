@@ -29,8 +29,10 @@
 (require 'cl)
 
 (when (>= emacs-major-version 24)
-    (setq package-archives '(;;("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                           ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+  (setq package-archives '(;;("gnu"   . "http://elpa.emacs-china.org/gnu/")
+			   ("melpa-stable" . "https://stable.melpa.org/packages/")
+			   
+                           ))
   (require 'package)
   (package-initialize)
   ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
@@ -84,6 +86,7 @@
 			      evil-nerd-commenter
 			      which-key
 			      pallet
+			      use-package
 			      ;;mwe-log-commands
 			      ) "Default packages")
 
