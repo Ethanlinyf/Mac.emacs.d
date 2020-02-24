@@ -28,80 +28,83 @@
 ;; (package-initialize)
 (require 'cl)
 
-(when (>= emacs-major-version 24)
-  (setq package-archives '(;;("gnu"   . "http://elpa.emacs-china.org/gnu/")
-			   ("melpa-stable" . "https://stable.melpa.org/packages/")
+;; (when (>= emacs-major-version 24)
+;;   (setq package-archives '(("gnu"  . "http://elpa.emacs-china.org/gnu/")
+;; 			   ("melpa-stable" . "https://stable.melpa.org/packages/")
+;; 			   ("melpa" . "https://melpa.org/packages/")
 			   
-                           ))
-  (require 'package)
-  (package-initialize)
-  ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-  ;;(add-to-list 'package-archives '("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/") t)
-  ;;(add-to-list 'package-archives '("melpa-gnu" . "http://elpa.emacs-china.org/gnu/") t)
-  )
+;;                            ))
+;;   (require 'package)
+;;   (package-initialize)
+;;   ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+;;   ;;(add-to-list 'package-archives '("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/") t)
+;;   ;;(add-to-list 'package-archives '("melpa-gnu" . "http://elpa.emacs-china.org/gnu/") t)
+;;   )
 
-;; add whaterver packages you want here
-(defvar EthanLinyf/packages '(
-			      company
-			      hungry-delete
-			      swiper
-			      counsel
-			      smartparens
-			      js2-mode
-			      nodejs-repl
-			      exec-path-from-shell
-			      monokai-theme
-			      smex
-			      solarized-theme
-			      popwin
-			      reveal-in-osx-finder
-			      org-pomodoro
-			      sound-wav
-			      magit
-			      auctex
-			      dash
-			      yasnippet
-			      auto-complete
-			      htmlize
-			      hydra
-			      metaweblog
-			      xml-rpc
-			      org2blog
-			      grip-mode ;;preview
-			      multi-term ;; for creating and managing multiple terminal buffers in Emacs
-			      slime ;; Superior Lisp Interaction Mode for Emacs, learning Emacs lisp.
-			      grip-mode ;; Instant Github-flavored Markdown/Org preview using grip
-			      web-mode
-			      js2-refactor
-			      expand-region
-			      iedit
-			      evil
-			      evil-leader
-			      helm-ag
-			      flycheck
-			      auto-yasnippet
-			      window-numbering
-			      powerline
-			      evil-surround
-			      evil-nerd-commenter
-			      which-key
-			      pallet
-			      use-package
-			      ;;mwe-log-commands
-			      ) "Default packages")
+;; ;; add whaterver packages you want here
+;; (defvar EthanLinyf/packages '(
+;; 			      company
+;; 			      hungry-delete
+;; 			      swiper
+;; 			      counsel
+;; 			      smartparens
+;; 			      js2-mode
+;; 			      nodejs-repl
+;; 			      exec-path-from-shell
+;; 			      monokai-theme
+;; 			      smex
+;; 			      ;;command-log-mode
+;; 			      solarized-theme
+;; 			      popwin
+;; 			      reveal-in-osx-finder
+;; 			      org-pomodoro
+;; 			      sound-wav
+;; 			      magit
+;; 			      auctex
+;; 			      dash
+;; 			      yasnippet
+;; 			      auto-complete
+;; 			      htmlize
+;; 			      hydra
+;; 			      metaweblog
+;; 			      xml-rpc
+;; 			      command-log-mode
+;; 			      org2blog
+;; 			      grip-mode ;;preview
+;; 			      multi-term ;; for creating and managing multiple terminal buffers in Emacs
+;; 			      slime ;; Superior Lisp Interaction Mode for Emacs, learning Emacs lisp.
+;; 			      grip-mode ;; Instant Github-flavored Markdown/Org preview using grip
+;; 			      web-mode
+;; 			      js2-refactor
+;; 			      expand-region
+;; 			      iedit
+;; 			      evil
+;; 			      evil-leader
+;; 			      helm-ag
+;; 			      flycheck
+;; 			      auto-yasnippet
+;; 			      window-numbering
+;; 			      powerline
+;; 			      evil-surround
+;; 			      evil-nerd-commenter
+;; 			      which-key
+;; 			      pallet
+;; 			      use-package
+;; 			      ;;mwe-log-commands
+;; 			      ) "Default packages")
 
-(setq package-selected-packages EthanLinyf/packages)
+;; (setq package-selected-packages EthanLinyf/packages)
 
-(defun EthanLinyf/packages-installed-p ()
-  (loop for pkg in EthanLinyf/packages
-        when (not (package-installed-p pkg)) do (return nil)
-        finally (return t)))
+;; (defun EthanLinyf/packages-installed-p ()
+;;   (loop for pkg in EthanLinyf/packages
+;;         when (not (package-installed-p pkg)) do (return nil)
+;;         finally (return t)))
 
-(unless (EthanLinyf/packages-installed-p)
-  (message "%s" "Refreshing package database...")
-  (package-refresh-contents)
-  (dolist (pkg EthanLinyf/packages)
-    (when (not (package-installed-p pkg))
-      (package-install pkg))))
+;; (unless (EthanLinyf/packages-installed-p)
+;;   (message "%s" "Refreshing package database...")
+;;   (package-refresh-contents)
+;;   (dolist (pkg EthanLinyf/packages)
+;;     (when (not (package-installed-p pkg))
+;;       (package-install pkg))))
 
 (provide 'init-packages)

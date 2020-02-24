@@ -15,6 +15,14 @@
 
 
 * init.el settings
+** Cask Package Management
+#+BEGIN_SRC emacs-lisp
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+
+(require 'pallet)
+(pallet-mode t)
+#+END_SRC
 ** Load Emacs path
 #+BEGIN_SRC emacs-lisp
 (add-to-list 'load-path "~/.emacs.d/lisp/")

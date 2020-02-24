@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "grip-mode" "1.1.0" "Instant GitHub-flavored Markdown/Org preview using grip." '((emacs "24.4")) :commit "5079b679e5beac994bca7ee657234c0835580d23" :keywords '("convenience" "markdown" "preview") :authors '(("Vincent Zhang" . "seagle0128@gmail.com")) :maintainer '("Vincent Zhang" . "seagle0128@gmail.com") :url "https://github.com/seagle0128/doom-modeline")
