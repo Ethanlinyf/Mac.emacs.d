@@ -6,6 +6,8 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
+(require 'use-package)
+
 (require 'init-packages)
 (require 'init-better-defaults)
 (require 'init-ui)

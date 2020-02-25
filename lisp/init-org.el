@@ -49,5 +49,14 @@
 
 (global-set-key (kbd "C-c r") 'org-capture)
 
+;; Org Bullet
+;; (require 'org-bullets)
+;; (add-hook 'org-mode-hook 'org-bullets-mode)
+
+(use-package org-bulle
+  :hook (org-mode . org-bullets-mode))
+
+
+
 
 (provide 'init-org)

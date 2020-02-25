@@ -29,6 +29,9 @@
 #+END_SRC
 ** Load Require files
 #+BEGIN_SRC emacs-lisp
+(require 'use-package)
+#+END_SRC
+#+BEGIN_SRC emacs-lisp
 (require 'init-packages)
 (require 'init-better-defaults)
 (require 'init-ui)
