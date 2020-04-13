@@ -2,7 +2,7 @@
 
 ;;; Copyright (C) 2019
 
-;; Author: Teamwork  <e.yflin@gmail.com>
+;; Author: siziki <siziki@gmail.com>, adjusted by Ethanlinyf <e.yflin@gmail.com>
 ;; URL: https://github.com/Ethanlinyf/Mac.emacs.d
 
 ;; This program is free software; you can redistribute it and/or
