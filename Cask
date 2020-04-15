@@ -69,6 +69,7 @@
 (depends-on "reveal-in-osx-finder")
 (depends-on "s")
 (depends-on "shut-up")
+(depends-on "simple-httpd")
 (depends-on "slime")
 (depends-on "smartparens")
 (depends-on "smex")

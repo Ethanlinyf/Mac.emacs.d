@@ -45,6 +45,7 @@
 (require 'init-web-development)
 (require 'init-package-configuration)
 (require 'init-keybindings)
+(require 'init-site)
 ;;(require 'grid-mode)
 #+END_SRC
 ** Load Custom settings
