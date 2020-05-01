@@ -75,7 +75,7 @@
 ;; Recent opened files
 (require 'recentf)
 (recentf-mode 1)
-(setq recentf-max-menu-item 10)
+(setq recentf-max-menu-item 50)
 (global-set-key "\C-x\ \C-r" 'recentf-open-files) ;; see key bindings
 
 (fset 'yes-or-no-p 'y-or-n-p)

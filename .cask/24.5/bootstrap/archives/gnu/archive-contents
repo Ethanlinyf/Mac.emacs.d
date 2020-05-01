@@ -610,7 +610,7 @@
 		 ((pyim
 		   (1 6 0))
 		  (ebdb
-		   (0 2)))
+		   (0 6 17)))
 		 "China-specific internationalization support for EBDB" single
 		 ((:url . "http://elpa.gnu.org/packages/ebdb-i18n-chn.html")
 		  (:authors
@@ -1549,7 +1549,7 @@
 	     ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	    (:url . "http://elpa.gnu.org/packages/persist.html"))])
  (phps-mode .
-	    [(0 3 42)
+	    [(0 3 43)
 	     ((emacs
 	       (26)))
 	     "Major mode for PHP with Semantic integration" tar
