@@ -31,7 +31,7 @@
  '(evil-want-C-u-scroll t)
  '(org-agenda-files
    (quote
-    ("~/MySpacemacs/EthanYufengLinOrg/Project/ThingsEngine/ThingsEngine-Git/ThingsEngine_Git.org" "/Users/ethanlin/org/gtd.org")))
+    ("/Users/ethanlin/org/gtd.org")))
  '(package-selected-packages
    (quote
     (org-bullets use-ttf abc-mode pkg-info popup powerline slime transient treepy undo-tree use-package web-mode window-numbering with-editor xml-rpc yasnippet package-build shut-up epl git commander f dash s pallet 2048-game which-key let-alist latex-extra latex-math-preview latex-unicode-math-mode cdlatex company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme smex solarized-theme popwin reveal-in-osx-finder org-pomodoro sound-wav magit auctex)))
