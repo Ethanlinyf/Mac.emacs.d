@@ -23,6 +23,7 @@
 
 
 (setq org-directory "/users/ethanlin/MySpacemacs/")
+(add-hook 'org-mode-hook #'visual-line-mode)
 
 (setq org-list-allow-alphabetical t)
 
@@ -56,7 +57,15 @@
 (use-package org-bulle
   :hook (org-mode . org-bullets-mode))
 
+;; set TODO keywords as workflow states
+(setq org-todo-keywords
+      '((sequence "TODO" "WAITING" "|" "DONE" "CANCELED")))
 
-
+(setq org-todo-keyword-faces
+  '(("TODO" . (:foreground "#ff39a3" :weight bold))
+("WAITING" . "#E35DBF")
+("CANCELED" . (:foreground "white"  :weight bold))
+))
 
 (provide 'init-org)
+

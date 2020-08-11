@@ -29,12 +29,10 @@
  ;; If there is more than one, they won't work right.
  '(evil-leader/leader "SPC")
  '(evil-want-C-u-scroll t)
- '(org-agenda-files
-   (quote
-    ("/Users/ethanlin/org/gtd.org")))
+ '(org-agenda-files (quote ("/Users/ethanlin/org/gtd.org")))
  '(package-selected-packages
    (quote
-    (org-bullets use-ttf abc-mode pkg-info popup powerline slime transient treepy undo-tree use-package web-mode window-numbering with-editor xml-rpc yasnippet package-build shut-up epl git commander f dash s pallet 2048-game which-key let-alist latex-extra latex-math-preview latex-unicode-math-mode cdlatex company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme smex solarized-theme popwin reveal-in-osx-finder org-pomodoro sound-wav magit auctex)))
+    (all-the-icons-ivy all-the-icons-dired all-the-icons neotree org-bullets use-ttf abc-mode pkg-info popup powerline slime transient treepy undo-tree use-package web-mode window-numbering with-editor xml-rpc yasnippet package-build shut-up epl git commander f dash s pallet 2048-game which-key let-alist latex-extra latex-math-preview latex-unicode-math-mode cdlatex company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme smex solarized-theme popwin reveal-in-osx-finder org-pomodoro sound-wav magit auctex)))
  '(popwin:popup-window-position (quote right))
  '(popwin:popup-window-width 80)
  '(show-paren-mode t)

@@ -208,6 +208,20 @@
 (which-key-mode 1)
 (which-key-setup-side-window-bottom)
 
+;; file-management: neotree
+ (use-package neotree
+   :ensure t
+   :init (setq neo-window-fixed-size nil
+	       neo-theme (if (display-graphic-p) 'icons 'arrow)
+	       neo-smart-open t)
+   :bind (("s-8" . neotree-toggle)))
+;; (require 'neotree)
+;; (global-set-key (kbd "s-8") 'neotree-toggle)
+;; (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+;; (setq neo-smart-open t)
+
+
+
 ;; use-package
 (require 'use-package)
 (provide 'init-package-configuration)

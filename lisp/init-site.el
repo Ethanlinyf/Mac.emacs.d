@@ -15,7 +15,7 @@
   (setq
    ;; org-html-doctype "html5"
    ;; org-export-default-language "ch"
-   user-full-name "Ethan Lin"))
+   user-full-name "YF Lin"))
 
 
 (progn
@@ -65,7 +65,7 @@
            ;; :preserve-breaks	org-export-preserve-breaks
            :section-numbers nil	;; org-export-with-section-numbers
            ;; :select-tags	org-export-select-tags
-           :with-author "Ethan Lin" ;; org-export-with-author
+           :with-author "YF Lin" ;; org-export-with-author
            ;; :with-broken-links	org-export-with-broken-links
            ;; :with-clocks	t ;; org-export-with-clocks
            ;; :with-creator nil ;; org-export-with-creator

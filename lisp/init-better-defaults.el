@@ -30,7 +30,7 @@
 (global-auto-revert-mode 1)
 
 ;; set visual line mode
-(global-visual-line-mode 1) ; 1 for on, 0 for off.
+;;(global-visual-line-mode 1) ; 1 for on, 0 for off.
 
 ;; turn off tool-bar-mode
 (tool-bar-mode -1)
