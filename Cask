@@ -15,6 +15,7 @@
 (depends-on "bind-key")
 (depends-on "cask")
 (depends-on "cdlatex")
+(depends-on "centaur-tabs")
 (depends-on "command-log-mode")
 (depends-on "company")
 (depends-on "counsel")

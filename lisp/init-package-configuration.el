@@ -220,8 +220,7 @@
 ;; (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 ;; (setq neo-smart-open t)
 
-
+(centaur-tabs-mode t)
 
 ;; use-package
-(require 'use-package)
 (provide 'init-package-configuration)

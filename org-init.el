@@ -22,9 +22,10 @@
 (require 'init-package-configuration)
 (require 'init-keybindings)
 (require 'init-site)
+(require 'init-filemanage)
 ;;(require 'grid-mode)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 (load-file custom-file)
 
-
+;;(centaur-tabs-mode t)

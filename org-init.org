@@ -46,6 +46,7 @@
 (require 'init-package-configuration)
 (require 'init-keybindings)
 (require 'init-site)
+(require 'init-filemanage)
 ;;(require 'grid-mode)
 #+END_SRC
 ** Load Custom settings
@@ -55,7 +56,7 @@
 #+END_SRC
 ** AutoLoad
 #+BEGIN_SRC emacs-lisp
-
+;;(centaur-tabs-mode t)
 #+END_SRC
 ** exclude file
    - recentf
